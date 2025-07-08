@@ -45,7 +45,7 @@ Keep the language simple and encouraging, as this is for someone who enjoys solv
 `;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o",
+      model: "gpt-4o-mini-2024-07-18",
       messages: [
         { 
           role: "system", 
